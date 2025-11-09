@@ -25,7 +25,7 @@ function App() {
     {/* <AuthProvider>가 <BrowserRouter>안에 있으면 라우터가 페이지를 이동할때 마다 마운트->언마운트를 반복하기때문에, 데이터가 초기화됨.  */}
     {/* 초기화되면 안되는 로그인 id같은 경우 원래 세션이나, LocalStorage저장해서 가지고 이동하는게 원칙. */}
       {/* <AuthProvider> */}
-        <BrowserRouter>
+        <BrowserRouter basename="/foodjang">
           <AuthProvider >
             <Header />
             
