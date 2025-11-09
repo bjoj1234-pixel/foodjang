@@ -10,7 +10,7 @@ export default function MealsDetail({data}){
 
     const product = data.find((item)=> item.id === Number(id));
 
-
+//
     if(!product) return <p>데이터 불러오는중....</p>
 
     return(
