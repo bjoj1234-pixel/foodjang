@@ -1,0 +1,54 @@
+section .main-bn{
+    background-image: url('/img/main-banner1.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 370px;
+}
+section .contents{
+    width: 1000px;
+    margin: 0 auto;
+}
+section .contents h2{   
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    margin: 55px 0 20px;
+}
+section .contents ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section .contents ul li{
+    width: 32%;
+}
+
+section .contents>div>ul>li{
+    margin-bottom: 30px;
+}
+
+section .contents ul li img{
+    display: block;
+    width: 100%;
+}
+
+section .contents ul li .product-name{
+    font-weight: 600;
+    font-size: 19px;
+}
+section .contents ul li .product-ingre{
+    height: 40px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #1e1e1e;
+}
+section .contents ul li .product-rating,
+section .contents ul li .product-reviewCount{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section .contents ul li .product-rating button{
+    padding: 6px 12px;
+}
